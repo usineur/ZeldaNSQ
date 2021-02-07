@@ -45,17 +45,23 @@ target_link_libraries(${VITA_APPNAME}
   modplug
   jpeg
   png
-  vitaGL
+  webp
+  pthread
   imgui
+  vitaGL
+  vitashark
+  mathneon
   z
   SceAppMgr_stub
   SceAppUtil_stub
   SceAudio_stub
+  SceCommonDialog_stub
   SceCtrl_stub
   SceDisplay_stub
   SceGxm_stub
   SceHid_stub
   ScePower_stub
+  SceShaccCg_stub
   SceSysmodule_stub
   SceTouch_stub
 )
